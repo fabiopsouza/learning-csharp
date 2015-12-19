@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Loja.Infra;
 
 namespace Loja
 {
@@ -10,6 +11,7 @@ namespace Loja
     {
         static void Main(string[] args)
         {
+            NHibernateHelper.GeraSchema();
         }
     }
 }
